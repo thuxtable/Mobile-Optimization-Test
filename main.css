@@ -1,0 +1,101 @@
+html, body {
+	font: 1.2em "Oswald", Helvetica, Arial, Sans-Serif;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #383838;
+	/* background-image: url(shady-forest.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; */
+}
+
+.rwd-break{
+	display: block;
+}
+
+a:hover,
+#usercont{
+	color: #FFFF99;
+}
+
+#usercont{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.container {
+  background: #eaeaed;
+  *zoom: 1;
+}
+
+.container {
+	border-radius: 0px;
+}
+
+section,
+aside {
+  border-radius: 4px;
+}
+
+section,
+aside {
+  background: #2db34a;
+  color: #fff;
+  margin: 1%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 420px) {
+  .container {
+    max-width: 1024px;
+	margin: 0 auto;
+	border-radius: 0px;
+  }
+  section,
+  aside {
+	float: left;
+	padding: 20px 0;
+	}
+  section {
+    width: 98%;
+  }
+  aside {
+    width: 48%;
+  }
+  	.rwd-break{
+	display: block;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+	border-radius: 4px;
+  }
+  section {
+    width: 60%;
+  }
+  aside {
+    width: 17%;
+  }
+    section,
+	aside {
+	float: left;
+	padding: 20px 0;
+	}
+	.rwd-break{
+		display: none;
+	}
+}
